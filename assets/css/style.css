@@ -512,7 +512,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -523,12 +523,18 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
+.section-title h3 {
+  font-size: 18px;
+  color: #986bb6;
+  font-family: "Poppins", sans-serif;
+}
+
 .section-title h2::after {
   content: "";
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #9ae1af;
+  background: #c074f3;
   margin: 4px 10px;
 }
 
@@ -539,7 +545,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #37423b;
+  color: #c074f3;
 }
 
 .breadcrumbs {
@@ -972,22 +978,9 @@ div.member ul {
   overflow: hidden;
 }
 
-.testimonials .testimonial-item {
-  box-sizing: content-box;
-  padding: 30px 30px 30px 60px;
-  margin: 30px 15px;
-  min-height: 200px;
-  border: 1px solid #eef0ef;
-  position: relative;
-  background: #fff;
-}
-
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 10px;
-  border: 6px solid #fff;
-  position: absolute;
-  left: -45px;
+  width: 348px;
+  Height: 348px;
 }
 
 .testimonials .testimonial-item h3 {
@@ -1033,15 +1026,15 @@ div.member ul {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
+  width: 15px;
+  height: 15px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #5fcf80;
+  border: 2px solid #c074f3;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #5fcf80;
+  background-color: #c074f3;
 }
 
 @media (max-width: 767px) {
